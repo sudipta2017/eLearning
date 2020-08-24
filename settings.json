@@ -1,0 +1,21 @@
+{
+    "yourName": "Sudipta De",
+    "navItems": [
+        {
+            "name": "home",
+            "display": "Home",
+            "link": "/pages/home.html"
+        },
+        {
+            "name": "portfolio",
+            "display": "Portfolio",
+            "link": "/pages/portfolio.html"
+        },
+        {
+            "name": "illustrations",
+            "display": "Illustrations",
+            "link": "/pages/resume.html"
+        }
+    ],
+    "landingPage": "home"
+}
