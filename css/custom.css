@@ -10,3 +10,23 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
 }
+
+.bg-dark-custom {
+  background-color: #202133;
+}
+
+.bg-secondary-custom {
+  background-color: #242537;
+}
+
+.border-red {
+  border: 1px solid #c04849;
+}
+
+.bg-red {
+  background-color: #c04849;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  border-bottom: 2px solid #c04849;
+}
