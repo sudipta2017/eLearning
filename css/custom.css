@@ -27,6 +27,10 @@
   background-color: #c04849;
 }
 
+.color-red {
+  color: #c04849;
+}
+
 .navbar-dark .navbar-nav .nav-link.active {
   border-bottom: 2px solid #c04849;
 }
