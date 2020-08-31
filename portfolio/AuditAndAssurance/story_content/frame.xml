@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10110001101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns11111001101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
   <layouts>
-    <layout name="npnxnanbsnfns10110001101" font="Lato" controllayout="npnxnanbsnfns10110001101" colorscheme="npnxnanbnsnfns10110001101" string_table="npnxnanbnsnfns10110001101" />
-    <layout name="pxabnsnfns10110001101" font="Lato" controllayout="pxabnsnfns10110001101" colorscheme="npnxnanbnsnfns10110001101" string_table="npnxnanbnsnfns10110001101" />
-    <layout name="npxnabnsnfns10110001101" font="Lato" controllayout="npxnabnsnfns10110001101" colorscheme="npnxnanbnsnfns10110001101" string_table="npnxnanbnsnfns10110001101" />
-    <layout name="npnxnanbnsnfns10110001101" font="Lato" controllayout="npnxnanbnsnfns10110001101" colorscheme="npnxnanbnsnfns10110001101" string_table="npnxnanbnsnfns10110001101" />
-    <layout name="pxabnsnfns10110001100" font="Lato" controllayout="pxabnsnfns10110001100" colorscheme="npnxnanbnsnfns10110001101" string_table="npnxnanbnsnfns10110001101" />
+    <layout name="npnxnanbsnfns11111001101" font="Lato" controllayout="npnxnanbsnfns11111001101" colorscheme="npnxnanbnsnfns11111001101" string_table="npnxnanbnsnfns11111001101" />
+    <layout name="pxabnsnfns11111001101" font="Lato" controllayout="pxabnsnfns11111001101" colorscheme="npnxnanbnsnfns11111001101" string_table="npnxnanbnsnfns11111001101" />
+    <layout name="npxnabnsnfns11111001101" font="Lato" controllayout="npxnabnsnfns11111001101" colorscheme="npnxnanbnsnfns11111001101" string_table="npnxnanbnsnfns11111001101" />
+    <layout name="npnxnanbnsnfns11111001101" font="Lato" controllayout="npnxnanbnsnfns11111001101" colorscheme="npnxnanbnsnfns11111001101" string_table="npnxnanbnsnfns11111001101" />
+    <layout name="pxabnsnfns11111001100" font="Lato" controllayout="pxabnsnfns11111001100" colorscheme="npnxnanbnsnfns11111001101" string_table="npnxnanbnsnfns11111001101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="AuditAndAssurance" />
+              <option name="title_text" value="Audit and Assurance: Materiality" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -28,7 +28,7 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="glossary" value="false" group="sidebar" />
-              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="transcript" value="true" group="sidebar" />
               <listitem name="resources" value="false" group="sidebar" />
             </listitems>
@@ -89,12 +89,12 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10110001101">
+    <control_layout name="npnxnanbsnfns11111001101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -105,19 +105,19 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10110001101">
+    <control_layout name="pxabnsnfns11111001101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -128,19 +128,19 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10110001101">
+    <control_layout name="npxnabnsnfns11111001101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
@@ -151,19 +151,19 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10110001101">
+    <control_layout name="npnxnanbnsnfns11111001101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -174,19 +174,19 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10110001100">
+    <control_layout name="pxabnsnfns11111001100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -197,7 +197,7 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -206,7 +206,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns10110001101">
+    <colorscheme name="npnxnanbnsnfns11111001101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1217,7 +1217,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns10110001101">
+    <string_table name="npnxnanbnsnfns11111001101">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1295,47 +1295,20 @@
         <slidelink slideid="_player.6T7gVoROf96" displaytext="Welcome" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6T7gVoROf96.6devkV5ZCjM" displaytext="Welcome" expand="false" type="slide" />
-            <slidelink slideid="_player.6T7gVoROf96.6hhPbSraTrW" displaytext="Name" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5lLw4UsalkS" displaytext="Learn about Handy Hardware" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5lLw4UsalkS.5h2qgvT6tth" displaytext="Introduction with Amandeep" expand="false" type="slide" />
-            <slidelink slideid="_player.5lLw4UsalkS.67ERptdcMWG" displaytext="Part 1" expand="false" type="slide" />
             <slidelink slideid="_player.5lLw4UsalkS.5om0nTOe7E1" displaytext="Meet Marta" expand="false" type="slide" />
             <slidelink slideid="_player.5lLw4UsalkS.6AvS3iVoD9z" displaytext="Choices" expand="false" type="slide" />
-            <slidelink slideid="_player.5lLw4UsalkS.5oywoBv5H9e" displaytext="End of Demo" expand="false" type="slide" />
-            <slidelink slideid="_player.6Nx9xvNtXvR" displaytext="Company Profile" expand="true" type="slide">
-              <links>
-                <slidelink slideid="_player.6Nx9xvNtXvR.5zrhr45Kwz7" displaytext="Play Promo Video" expand="false" type="slide" />
-                <slidelink slideid="_player.6Nx9xvNtXvR.5i61KZdRClg" displaytext="Background" expand="false" type="slide" />
-                <slidelink slideid="_player.6Nx9xvNtXvR.68ebnHjXRXM" displaytext="Promo Video" expand="false" type="slide" />
-                <slidelink slideid="_player.6Nx9xvNtXvR.6AcYUFmnDxV" displaytext="Marta&amp;apos;s Feedback" expand="false" type="slide" />
-              </links>
-            </slidelink>
-            <slidelink slideid="_player.6LOLMoY7k7k" displaytext="Meet Owner" expand="true" type="slide">
-              <links>
-                <slidelink slideid="_player.6LOLMoY7k7k.6GVwfKWNJYf" displaytext="Meet Marcus" expand="false" type="slide" />
-                <slidelink slideid="_player.6LOLMoY7k7k.6VJ81lQ28Zy" displaytext="Questions" expand="false" type="slide">
-                  <links>
-                    <slidelink slideid="_player.6LOLMoY7k7k.63KTOkt8Eaw" displaytext="Financing" expand="false" type="slide" />
-                    <slidelink slideid="_player.6LOLMoY7k7k.6YhaHF51aCY" displaytext="Accounto Pro" expand="false" type="slide" />
-                    <slidelink slideid="_player.6LOLMoY7k7k.6C9lkMIJGuq" displaytext="Non-recurring" expand="false" type="slide" />
-                  </links>
-                </slidelink>
-                <slidelink slideid="_player.6LOLMoY7k7k.6UPoQFN4it0" displaytext="Thank You" expand="false" type="slide" />
-                <slidelink slideid="_player.6LOLMoY7k7k.6aHn4wc57Gl" displaytext="Marta&amp;apos;s Feedback" expand="false" type="slide" />
-              </links>
-            </slidelink>
-            <slidelink slideid="_player.5gfOT3jSdIB" displaytext="View Financials" expand="true" type="slide">
-              <links>
-                <slidelink slideid="_player.5gfOT3jSdIB.6GUbFsVvrDh" displaytext="View Financials" expand="false" type="slide" />
-                <slidelink slideid="_player.5gfOT3jSdIB.6ioE5JesTt0" displaytext="Marta&amp;apos;s Feedback" expand="false" type="slide" />
-              </links>
-            </slidelink>
+            <slidelink slideid="_player.6Nx9xvNtXvR.5zrhr45Kwz7" displaytext="Company Profile" expand="false" type="slide" />
+            <slidelink slideid="_player.6LOLMoY7k7k.6GVwfKWNJYf" displaytext="Meet Marcus" expand="false" type="slide" />
+            <slidelink slideid="_player.5gfOT3jSdIB.6GUbFsVvrDh" displaytext="View Financials" expand="false" type="slide" />
             <slidelink slideid="_player.5gTlAFFxFqG" displaytext="Assess Materiality" expand="true" type="slide">
               <links>
-                <slidelink slideid="_player.5gTlAFFxFqG.6PpZ1KoSBFg" displaytext="Debrief with Amandeep" expand="false" type="slide" />
+                <slidelink slideid="_player.5gTlAFFxFqG.6PpZ1KoSBFg" displaytext="Assess Materiality" expand="false" type="slide" />
+                <slidelink slideid="_player.5gTlAFFxFqG.6h3r9jDx1g4" displaytext="End of Demo" expand="false" type="slide" />
               </links>
             </slidelink>
           </links>
@@ -1346,19 +1319,47 @@
   <resource_data description="" />
   <transcript_data>
     <slidetranscripts>
-      <slidetranscript slideid="6T7gVoROf96.6hhPbSraTrW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6T7gVoROf96.6devkV5ZCjM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="10"&gt;
         &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
       &lt;/Style&gt;
-      &lt;Span Text="You work as a manager for Hunter Manfield CPA LLP. You have been tasked with completing the planning for Handy Hardware’s December 31st audit engagement. Type your name to get started."&gt;
+      &lt;Span Text="Audit and Assurance Materiality"&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6T7gVoROf96.6hhPbSraTrW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You work as a senior auditor in your company. You have been tasked with completing the planning for Handy Hardware’s December 31st audit engagement. Type your name to get started."&gt;
         &lt;Style FontFamily="PT Sans" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5lLw4UsalkS.5om0nTOe7E1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="5lLw4UsalkS.5h2qgvT6tth" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Hello! I’m your supervisor, Amandeep. Now is your chance to gather information Handy Hardware. &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Be sure to take notes, either manually or by clicking the ADD TO NOTEBOOK button when it appears to save the information to a Notebook.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Your colleague Marta will check in on you to lend a helping hand.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="I will also be keeping an eye on you and giving you a call if you are in trouble. But be careful, if I have to call you 3 times, I’ll have to take you off the project. Good luck!" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lLw4UsalkS.5om0nTOe7E1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="10"&gt;
@@ -1370,17 +1371,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Nx9xvNtXvR.5zrhr45Kwz7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style Justification="Left" /&gt;
-      &lt;Span Text="Click to play a promotional video about Handy Hardware."&gt;
-        &lt;Style FontSize="10" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Nx9xvNtXvR.5i61KZdRClg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6Nx9xvNtXvR.5i61KZdRClg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="10"&gt;
@@ -1392,7 +1383,88 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6LOLMoY7k7k.6GVwfKWNJYf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6Nx9xvNtXvR.5zrhr45Kwz7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="Click to play a promotional video about Handy Hardware."&gt;
+        &lt;Style FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Nx9xvNtXvR.68ebnHjXRXM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="Hi, I’m Marcus from Handy Hardware!&amp;#xA;"&gt;
+        &lt;Style FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="I personally select all of our products to make sure your home repair and renovation needs are taken care of.&amp;#xA;"&gt;
+        &lt;Style FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="Come visit one of our twenty stores for power tools, lumber, gardening, you name it!&amp;#xA;"&gt;
+        &lt;Style FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="We make your life simpler, one tool at a time!"&gt;
+        &lt;Style FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Nx9xvNtXvR.6AcYUFmnDxV" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now that you know something about how the company works, what do you want to do next? "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5gTlAFFxFqG.6PpZ1KoSBFg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="AMANDEEP:  How was your meeting with Marcus Turner?&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="YOU:  I think it went very well, Amandeep. &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="AMANDEEP:  I would like you to work on the materiality assessment as part of the audit plan for Handy Hardware Inc. Don’t worry about the other parts of the plan- your colleague Marta will take care of them. &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="YOU:  Great. &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="AMANDEEP:  You will need to calculate overall materiality, performance materiality and consider whether specific materiality is required. Marta will be around to provide you with feedback as you prepare your analysis. You can review the notebook whenever you need as you go forward with assessing the materiality. Good luck!" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6LOLMoY7k7k.6GVwfKWNJYf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Span Text="MARCUS:  It is nice to meet you. My name is Marcus Turner. &amp;#xD;YOU: I’m glad to meet you too. I know your time is limited. I’ve read about your company. I just have a couple of questions before I can proceed with the assessment.&amp;#xD;"&gt;
@@ -1401,14 +1473,108 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5xuDncL12lm.6HLayHh4t9p" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6LOLMoY7k7k.63KTOkt8Eaw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You: How did you finance your recent expansion?&amp;#xA;"&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="MARCUS:  We recently assumed a long-term loan with National Bank on top of our existing operating line of credit. We’ve been paying the interest on the operating line but don’t currently have sufficient cash flow to pay down the principal. Any excess cash flow we do have is put toward the monthly loan payment. "&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6LOLMoY7k7k.6YhaHF51aCY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="YOU: Can you tell me how it’s going with your accounting system?&amp;#xA;"&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="MARCUS:  As you know, in 2019 we implemented our new system, Accounto-Pro, which resulted in significant efficiencies. However, it’s fair to say the installation and training didn’t exactly go without a hitch. Your firm has identified some errors in the past, and we’re working on it, but between you and me and the doorknob, some staff still do manual tracking in Excel."&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6LOLMoY7k7k.6UPoQFN4it0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Thank you for meeting me today Mr. Turner. It was very helpful to learn more about Handy Hardware. I will take this information back to our office and be in touch shortly with audit start dates."&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6LOLMoY7k7k.6aHn4wc57Gl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="I hope you got some good information from Marcus. What’s your next move? "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6LOLMoY7k7k.6C9lkMIJGuq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="YOU:  Have you had any non-recurring transactions in the past year?&amp;#xA;"&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="MARCUS:  In December, we paid a $150,000 bonus to our management team for reaching our sales revenue target of $7 million. Now the shareholders want assurances that the bonus calculations were accurate, given our cash flow position. We also sold a warehouse in August for a profit of $480,000."&gt;
+        &lt;Style FontFamily="PT Sans" FontSize="10" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5gfOT3jSdIB.6ioE5JesTt0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="So now you have an idea about their finances. What makes sense as a next step? "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5xuDncL12lm.6HLayHh4t9p" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Span Text="You aren’t well enough prepared to interview the owner yet." /&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5xuDncL12lm.6mLWrgqzUW5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="5xuDncL12lm.6mLWrgqzUW5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Span Text="You don’t have enough data to assess materiality." /&gt;
