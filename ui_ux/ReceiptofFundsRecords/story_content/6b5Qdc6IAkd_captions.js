@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.45.23393.0%0D%0A%0D%0A00:00:00.150%20--%3E%2000:00:04.624%0D%0AAs%20you%20have%20filled%20up%20your%20first%20receipt%20of%20fund%20record,%20it%20should%20look%20like%20the%20table%20on%20the%20screen.%0D%0A%0D%0A"}')
