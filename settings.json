@@ -12,9 +12,9 @@
             "link": "/pages/portfolio.html"
         },
         {
-            "name": "ui_ux",
-            "display": "UI/UX Samples",
-            "link": "/pages/ui_ux.html"
+            "name": "samples",
+            "display": "Samples",
+            "link": "/pages/samples.html"
         },
         {
             "name": "illustrations",
