@@ -71,6 +71,6 @@ setNavbar = () => {
 
 setCopyright = () => {
     getSetting('yourName', function (yourName) {
-        $("#copyright").html(`Copyright &copy; ${new Date().getFullYear()} ${yourName}. All right reserved.`);
+        $("#copyright").html(`Copyright &copy; ${new Date().getFullYear()} ${yourName}. All rights reserved.`);
     });
 }

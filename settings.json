@@ -12,6 +12,11 @@
             "link": "/pages/portfolio.html"
         },
         {
+            "name": "ui_ux",
+            "display": "UI/UX Samples",
+            "link": "/pages/ui_ux.html"
+        },
+        {
             "name": "illustrations",
             "display": "Illustrations",
             "link": "/pages/illustrations.html"
