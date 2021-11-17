@@ -64,7 +64,7 @@ setNavbar = () => {
     getSetting('navItems', function (navItems) {
         $.each(navItems, function (_, navItem) {
             $("#navbarRoot")
-                .append(`<a class="nav-item nav-link" href="?link=${navItem.name}" data-toggle="collapse" data-target=".navbar-collapse.show">${navItem.display}</a>`);
+                .append(`<a class="nav-item nav-link" href="?link=${navItem.name}" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">${navItem.display}</a>`);
         })
     });
 }

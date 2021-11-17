@@ -63,15 +63,17 @@
   border-bottom: 2px solid #c04849;
 }
 
-.card-img,
-.card-img-left {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
-}
-
 .modal-header {
   border-bottom: 1px solid #c04849;
 }
 .modal-footer {
   border-top: 1px solid #c04849;
+}
+
+@media screen and (min-width: 992px) {
+  .card-lg-left-img {
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: 0;
+    max-width: 20rem;
+  }
 }
