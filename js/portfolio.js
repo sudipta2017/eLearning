@@ -11,7 +11,8 @@ $("#portfolioModal").bind("show.bs.modal", function (event) {
 
   // Update the modal's content.
   $(".modal-title").text(porject_title);
-  $.get(portfolio_page_link, function (html) {
+  $("#profileModalContent").html("<div>Loading...</div>");
+  $.get(portfolio_page_link, (html) => {
     $("#profileModalContent").html(html);
   });
 });
