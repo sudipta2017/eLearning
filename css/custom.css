@@ -69,7 +69,10 @@
 .modal-footer {
   border-top: 1px solid #c04849;
 }
-
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
 @media screen and (min-width: 992px) {
   .card-lg-left-img {
     border-bottom-left-radius: calc(0.25rem - 1px);
