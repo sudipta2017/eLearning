@@ -1,0 +1,27 @@
+{
+  "version": "3.93.33359.0",
+  "course_id": "6OwIGN0gvEm",
+  "title": "Interaction 1",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5eDh7GBgcm2",
+      "title": "Base",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 691
+  },
+  "stage": {
+    "width": 960,
+    "height": 620
+  }
+}
